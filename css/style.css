@@ -59,7 +59,7 @@
 	}
 	.h60_banner h1 {
 		color:#00C0F3;
-		font-size:5em;
+		font-size:4em;
 		font-weight:lighter;
 	}
 	
@@ -93,6 +93,9 @@
 	font-size:20px;
 }
 
+.h60_features .col-md-2 {
+	min-height:270px;
+}
 
 
 
