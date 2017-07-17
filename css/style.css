@@ -1,0 +1,266 @@
+
+
+
+
+/*--------h60 temp edited 170714------*/
+
+@media(min-width:767px) {
+
+.h60_banner {
+	display: table;
+    width: 100%;
+    height:100%;
+	min-height:100%;
+    padding:0px;
+    text-align: left;
+    color: #fff;
+    background: url(../images/h60/h60_slider_ripple_control.jpg) no-repeat bottom center scroll;
+    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+	margin:0px;
+}
+
+.h60_banner h1 {
+	color:#00C0F3;
+	font-size:7em;
+	font-weight:lighter;
+}
+
+.h60_banner p {
+	color:#fff;
+	font-size:3em;
+	font-weight:lighter;
+}
+
+.intro-body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+}
+
+@media(max-width:766px) {
+	.h60_banner {
+		width: 100%;
+		min-height:100%;
+		padding:0px;
+		text-align: center;
+		color: #fff;
+		background: url(../images/h60/h60_slider_ripple_control.jpg) no-repeat bottom right scroll;
+		
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		background-size: cover;
+		-o-background-size: cover;
+		margin:0px;
+	}
+	.h60_banner h1 {
+		color:#00C0F3;
+		font-size:5em;
+		font-weight:lighter;
+	}
+	
+	.h60_banner p {
+		color:#fff;
+		font-size:2em;
+		font-weight:lighter;
+	}
+	
+	.intro-body {
+		background:rgba(0,0,0,0.6);
+		vertical-align: middle;
+	}
+	
+}
+
+
+
+
+
+.h60_features {
+	background:#00C0F3;
+	padding:80px 0;
+	color:#fff;
+}
+
+.h60_features p {
+	color:#fff;
+	text-align:center;
+	font-weight:lighter;
+	font-size:20px;
+}
+
+
+
+
+.underlined-title
+{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.underlined-title h1
+{
+    color: #fff;
+    margin: 0;
+	font-weight:lighter;
+}
+
+.underlined-title h2
+{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #95a5a6;
+}
+
+.underlined-title hr
+{
+    width: 10%;
+    border-width: 2px;
+    border-color: #fff;
+}
+
+/*---*/
+
+.underlined-title2
+{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.underlined-title2 h1
+{
+    color: #00C0F3;
+    margin: 0;
+	font-weight:lighter;
+}
+
+.underlined-title2 h2
+{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #666;
+}
+
+.underlined-title2 hr
+{
+    width: 10%;
+    border-width: 2px;
+    border-color: #00C0F3;
+}
+
+
+
+
+
+.h60_howtowork {
+	padding:80px 0;
+}
+
+.h60_topic {
+	background:url(../images/h60/h60_img_ripple_control_functions.png) center top;
+	background-size:cover;
+	padding:120px 0;
+}
+
+.h60_accessories {
+	padding:120px 0 0 0;
+}
+
+.bg_accessories {
+	background:url(../images/h60/h60_img_ripple_control_series.jpg) center;
+	background-size:cover;
+	padding:200px 0;
+}
+
+.info_accessories p {
+	color:#555;
+	font-size:20px;
+	text-align:center;
+}
+
+
+.info_accessories {
+	background:#D2D2D2;
+	padding:-80px 0 80px 0;
+	position:relative;
+}
+
+.info_accessories .col-md-4 {
+	padding:0 40px;
+	top:-69px;
+}
+
+.info_accessories .col-md-3 {
+	top:-66px;
+}
+
+.bg_security {
+	background:url(../images/h60/h60_img_ripple_control_security.jpg) center;
+	background-size:cover;
+	padding:200px 0;
+}
+
+
+.futher_info {
+	color:#3F89D5;
+	border:2px solid #3F89D5;
+	padding:10px 20px;
+	margin:auto;
+	margin-bottom:50px;
+	font-size:20px;
+	width:60%;
+	text-align:center;
+	
+}
+
+.bg_health {
+	background:url(../images/h60/h60_img_ripple_control_health.jpg) center;
+	background-size:cover;
+	padding:200px 0;
+}
+
+
+
+.info_health {
+	background:#D2D2D2;
+	padding:-80px 0 0 0;
+	position:relative;
+	height:438px;
+}
+
+.info_health .col-md-4 {
+	top:-73px;
+}
+
+.info_health p {
+	color:#555;
+	font-size:20px;
+	text-align:center;
+	margin:0px;
+}
+
+.mobile_hidden { display:block; }
+.web_hidden { display:none; }
+
+@media(max-width:992px) {
+	.mobile_hidden { display:none; }
+	.web_hidden { display:block; }
+}
+
+
+.h60_app {
+	background: #2ca6e0;
+	background: -moz-linear-gradient(left, #2ca6e0 0%, #171c61 100%);
+	background: -webkit-linear-gradient(left, #2ca6e0 0%,#171c61 100%);
+	background: linear-gradient(to right, #2ca6e0 0%,#171c61 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ca6e0', endColorstr='#171c61',GradientType=1 );
+	
+	padding:80px 0;
+}
+
